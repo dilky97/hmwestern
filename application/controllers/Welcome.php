@@ -20,14 +20,12 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		// $this->load->model('User_model');
-		// $customer_details = $this->User_model->get_users();
-		// /* echo '<pre>';
-		// print_r($customer_details);
-		// echo '</pre>'; */
-		// $this->load->view('view_user',['customers'=>$customer_details]);
-
-		$this->load->view('homepage');
+		$this->load->model('User_model');
+		$customer_details = $this->User_model->get_users();
+		/* echo '<pre>';
+		print_r($customer_details);
+		echo '</pre>'; */
+		$this->load->view('view_user',['customers'=>$customer_details]);
 	}
 
 	//Functions to CRUD customer

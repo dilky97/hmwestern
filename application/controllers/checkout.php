@@ -6,6 +6,10 @@ class Checkout extends CI_Controller{
     function  __construct(){
         parent::__construct();
         
+        // Load form library & helper
+        $this->load->library('form_validation');
+        $this->load->helper('form');
+        
         // Load cart library
         $this->load->library('cart');
         

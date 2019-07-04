@@ -84,7 +84,7 @@
     </div>
     <br>
     <div class="footBtn">
-        <a href="<?php echo base_url('index.php/Order/'); ?>" class="btn btn-warning"><i class="glyphicon glyphicon-menu-left"></i> Back to Shopping</a>
+        <a href="<?php echo base_url('cart/'); ?>" class="btn btn-warning"><i class="glyphicon glyphicon-menu-left"></i> Back to Cart</a>
         <button type="submit" name="placeOrder" class="btn btn-success orderBtn">Place Order <i class="glyphicon glyphicon-menu-right"></i></button>
     </div>
     <br><br>

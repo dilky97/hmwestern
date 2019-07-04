@@ -1,4 +1,31 @@
+<section class="page-search">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<!-- Advance Search -->
+				<div class="advance-search">
+					<form>
+						<div class="form-row">
+							<div class="form-group col-md-4">
+								<input type="text" class="form-control my-2 my-lg-0" id="inputtext4" placeholder="What are you looking for">
+							</div>
+							<div class="form-group col-md-3">
+								<input type="text" class="form-control my-2 my-lg-0" id="inputCategory4" placeholder="Category">
+							</div>
+							<div class="form-group col-md-3">
+								<input type="text" class="form-control my-2 my-lg-0" id="inputLocation4" placeholder="Location">
+							</div>
+							<div class="form-group col-md-2">
 
+								<button type="submit" class="btn btn-primary">Search Now</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 <section class="section-sm">
 	<div class="container">
 		<div class="row">
@@ -51,7 +78,7 @@
                 <div class="category-search-filter">
                     <div class="row">
                         <div class="col-md-6">
-                            <strong>Sort</strong>
+                            <strong>Short</strong>
                             <select>
                                 <option>Most Recent</option>
                                 <option value="1">Most Popular</option>
@@ -59,7 +86,7 @@
                                 <option value="4">Highest Price</option>
                             </select>
                         </div>
-                        <!-- <div class="col-md-6">
+                        <div class="col-md-6">
                             <div class="view">
                                 <strong>Views</strong>
                                 <ul class="list-inline view-switcher">
@@ -71,7 +98,7 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
 
