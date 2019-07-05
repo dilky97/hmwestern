@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <meta charset="utf-8">
   <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-  <title>User Profile</title>
+  <title>H & M Western</title>
   
   <!-- FAVICON -->
   <link href="<?php echo base_url('images/favicon.ico');?>" rel="shortcut icon">
